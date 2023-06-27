@@ -1,1 +1,38 @@
 /* Candice Black 6/27/2023*/
+body {
+    background-color: burlywood;
+    background-size: 100%;
+}
+
+@media screen and (min-width:568px) {
+    .main {
+        width: 100%;
+    }
+}
+
+.main {
+    background-color: bisque;
+    opacity: .75;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+
+}
+.SOH, .GBR, .beaches{
+    padding-top: 30px;
+}
+
+img {
+    float: inline-start;
+    margin: auto;
+}
+@media screen and (min-width: 798px) {
+    .main{
+        width: 45%
+    }
+}
+@media screen and (min-width: 998px) {
+    .main{
+        width: 25%
+    }
+}
