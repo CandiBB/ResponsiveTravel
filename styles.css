@@ -1,12 +1,11 @@
 /* Candice Black 6/27/2023*/
 body {
-    
-    background-size: 100%;
     color: darkblue;
     text-align: center;
     background-image: url(ssa.jpg);
     background-size: cover;
-    margin: auto;
+    margin: 0;
+   
 }
 
 p {
@@ -30,68 +29,71 @@ h2 {
     color: darkblue;
     text-align: center;
     font-size: 1.5em;
-    
+
 }
 
 h1 {
     font-weight: 500;
     font-size: 2.3em;
-    background-color: none;
 }
 
 .SOH,
 .GBR,
 .beaches,
 .dining {
-   
+
     background-color: bisque;
     opacity: .75;
     width: 100%;
     float: left;
 }
-.extras{
-    
+
+.extras {
+
     color: darkblue;
     opacity: .75;
     margin: auto;
     width: 100%;
     float: left;
-    
+
 }
-.wildlife{
-   
-    background-color:rgb(145, 109, 54);
+
+.wildlife {
+
+    background-color: rgb(145, 109, 54);
     padding: 17px;
-} 
-.outback{
-   
-    background-color:rgb(194, 122, 14);
+}
+
+.outback {
+
+    background-color: rgb(194, 122, 14);
     padding: 17px;
 }
 
 
 
 @media screen and (min-width: 798px) {
-   .extras{
-    opacity: .89;
-    width: 25%;
-    float:left;
-    margin-left: 60px;
-   
-   }
+    .extras {
+        opacity: .89;
+        width: 25%;
+        float: left;
+        margin-left: 60px;
+
+    }
+
     .page {
 
-padding-left: 60px;
+        padding-left: 60px;
         margin: auto;
         width: 100%;
-        
+
     }
 
     h1 {
         font-size: 3em;
         font-weight: 450;
         float: none;
-       
+
     }
 
     h2 {
@@ -99,12 +101,12 @@ padding-left: 60px;
         font-weight: 400;
         float: none;
         text-align: left;
-        
+
     }
 
     p {
         font-size: 1em;
-        
+
     }
 
     .beaches,
@@ -114,7 +116,7 @@ padding-left: 60px;
         opacity: .89;
         float: left;
         width: 45%;
-      padding-left: 25px;
+        padding-left: 25px;
     }
 
     img {
@@ -127,14 +129,14 @@ padding-left: 60px;
     .page {
         width: 100%;
         margin: auto;
-        
+
     }
 
     h1 {
         font-size: 3.5em;
         font-weight: 500;
 
-        
+
     }
 
     h2 {
@@ -145,7 +147,7 @@ padding-left: 60px;
 
     p {
         font-size: 1.5em;
-        
+
     }
 
     .beaches,
